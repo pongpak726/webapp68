@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main-box{
+        display: flex;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(208, 39, 255);
+    }
+    .menu{
+        display: flex;
+        padding: 10px;
+        color: white;
+    }
+    .box:hover + .menu h3 {
+    padding: 10px;
+    color: black;
+}
+
+</style>
+<body>
+    <div class="main-box">
+        <div class="box">
+
+        </div>
+
+        <div class="menu">
+        <h3>Home</h3>
+        <h3>About</h3>
+        <h3>Contact</h3>
+        </div>
+    </div>
+</body>
+</html>

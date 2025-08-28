@@ -2,15 +2,33 @@
     padding: 0px;
     margin: 0px;
 }
+
 .menubar-sec{
     display: flex;
+    height: 6vh;
+}
+
+.menubar-sec h6{
+    font-size:20px;
+    padding: 10px;
+}
+
+.menu-box{
+    margin-left: 75%;
+    padding: 10px;
 }
 img{
+    
     width:250px;
     height: 300px;
     border: 2px solid brown;
     display: flex;
-    
+    justify-content: center;
+    margin-top: 60px;
+    border-radius: 20%;
+}
+a{
+    text-decoration: none;
 }
 
 .main-sec{
@@ -21,4 +39,5 @@ img{
 .contant{
     display: flex;
     justify-content: space-around;
+
 }
